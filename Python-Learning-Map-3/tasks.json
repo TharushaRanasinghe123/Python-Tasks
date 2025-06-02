@@ -1,0 +1,17 @@
+[
+    {
+        "title": "do the aassignment",
+        "completed": true,
+        "due_date": "2025/6/2"
+    },
+    {
+        "title": "shopping",
+        "completed": false,
+        "due_date": "2025/5/31"
+    },
+    {
+        "title": "dinner out",
+        "completed": true,
+        "due_date": "2025/6/1"
+    }
+]

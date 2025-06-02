@@ -1,0 +1,14 @@
+[
+    {
+        "type": "income",
+        "category": "salary",
+        "amount": 100000.0,
+        "date": "2025-05-31 09:30:10"
+    },
+    {
+        "type": "expense",
+        "category": "foods",
+        "amount": 2000.0,
+        "date": "2025-05-31 09:32:09"
+    }
+]

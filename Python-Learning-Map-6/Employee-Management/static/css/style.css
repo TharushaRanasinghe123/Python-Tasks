@@ -1,0 +1,19 @@
+body {
+    background-color:#faf8f847;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.table {
+    background-color: white;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
