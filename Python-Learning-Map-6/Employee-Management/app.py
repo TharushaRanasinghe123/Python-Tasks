@@ -9,12 +9,10 @@ from bson import ObjectId
 
 app = FastAPI()
 
-# MongoDB configuration
 app.mongodb_client = MongoClient("mongodb://localhost:27017/")
 app.database = app.mongodb_client["employee_management"]
 app.employees_collection = app.database["employees"]
 
-# Templates configuration
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
@@ -35,7 +33,7 @@ async def show_add_form(request: Request):
 
 @app.post("/employees/add", response_class=RedirectResponse)
 async def add_employee(
-    request: Request,  # Add this parameter
+    request: Request, 
     name: str = Form(...),
     email: str = Form(...),
     age: int = Form(...),
