@@ -72,9 +72,9 @@
                         </div>
                         
                         <div class="mb-3">
-                            <label for="salary" class="form-label">Salary ($)</label>
+                            <label for="salary" class="form-label">Salary (Rs)</label>
                             <div class="input-group">
-                                <span class="input-group-text">$</span>
+                                <span class="input-group-text">Rs.</span>
                                 <input type="number" class="form-control" id="salary" name="salary" 
                                        value="{{ employee.salary }}" step="0.01" min="0" required>
                             </div>
@@ -132,22 +132,6 @@
     })
 })()
 </script>
-<link rel="stylesheet" href="/static/css/style.css">
-<style>
-    .card {
-        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    }
-    .card-header {
-        font-weight: 600;
-    }
-    .form-label {
-        font-weight: 500;
-    }
-    .invalid-feedback {
-        font-size: 0.85rem;
-    }
-    .btn-danger {
-        margin-left: 10px;
-    }
-</style>
+
+
 {% endblock %}
